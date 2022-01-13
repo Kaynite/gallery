@@ -1,5 +1,6 @@
 # Laravel Vue Gallery
-
+A Demo project to practice Vue.js with Laravel and SPA techniques like:
+Authentication, Pagination, File Upload, State Management.
 ## Features
 
 -   SPA.
@@ -9,7 +10,7 @@
 -   Delete Images.
 
 ## Tech
-
+-   TailwindCSS
 -   Vue.Js 3.
 -   Vuex.
 -   VueRouter.
@@ -19,8 +20,8 @@
 
 ## To-Do
 
--   Profile Settings (For Users).
--   Add Images to Readme
+-   [ ] Profile Settings (For Users).
+-   [ ] Add Images to Readme
 
 ## Installation
 
