@@ -14,6 +14,7 @@
 -   Vuex.
 -   VueRouter.
 -   Laravel 8.
+-   Fortify.
 -   Sanctum.
 
 ## To-Do
