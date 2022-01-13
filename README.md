@@ -29,8 +29,15 @@ cp .env.example .env
 composer install
 npm install
 npm run dev
+```
+
+> Add your database connection settings 
+
+```sh
+php artisan migrate
 php artisan serve
 ```
+
 
 For production environments...
 
