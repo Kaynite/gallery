@@ -61,6 +61,10 @@ const routes = [
             title: "404",
         },
     },
+    {
+        path: "/:catchAll(.*)*",
+        redirect: { name: "404" },
+    },
 ];
 
 const router = createRouter({
