@@ -55,11 +55,6 @@ export default {
         };
     },
     methods: {
-        getUserData() {
-            axios.get("/api/user").then((res) => {
-                console.log(res.data);
-            });
-        },
         upload(event) {
             this.isDragging = false;
             const files = [...event.dataTransfer.files];

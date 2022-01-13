@@ -53,9 +53,7 @@ export default createStore({
             try {
                 await axios.post("logout");
                 commit("logout");
-            } catch (error) {
-                console.log(error);
-            }
+            } catch (error) {}
         },
         async attemptLogin({ commit }) {
             try {

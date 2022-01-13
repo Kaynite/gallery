@@ -21920,11 +21920,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     };
   },
   methods: {
-    getUserData: function getUserData() {
-      axios.get("/api/user").then(function (res) {
-        console.log(res.data);
-      });
-    },
     upload: function upload(event) {
       var _this = this;
 
@@ -23288,15 +23283,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
               case 4:
                 commit("logout");
-                _context3.next = 10;
+                _context3.next = 9;
                 break;
 
               case 7:
                 _context3.prev = 7;
                 _context3.t0 = _context3["catch"](1);
-                console.log(_context3.t0);
 
-              case 10:
+              case 9:
               case "end":
                 return _context3.stop();
             }
