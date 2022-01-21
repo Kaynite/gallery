@@ -24,12 +24,11 @@ Authentication, Pagination, File Upload, State Management.
 -   [x] Add Images to Readme
 
 ## Images
-    ![Homepage](./public/images/Homepage.jpeg)
-    ![Upload](./public/images/Upload.jpeg)
-    ![Profile](./public/images/Profile.jpeg)
-    ![Single Image](./public/images/Single%20Image.jpeg)
-    ![Login](./public/images/Login.jpeg)
-    
+![Homepage](./public/images/Homepage.jpeg)
+![Upload](./public/images/Upload.jpeg)
+![Profile](./public/images/Profile.jpeg)
+![Single Image](./public/images/Single%20Image.jpeg)
+![Login](./public/images/Login.jpeg)
 
 ## Installation
 
