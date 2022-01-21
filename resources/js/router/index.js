@@ -6,6 +6,7 @@ import Register from "@/views/Register.vue";
 import Upload from "@/views/Upload.vue";
 import Image from "@/views/Image.vue";
 import NotFound from "@/views/404.vue";
+import Profile from "@/views/Profile.vue";
 
 const routes = [
     {
@@ -42,6 +43,15 @@ const routes = [
         meta: {
             requiresAuth: true,
             title: "Upload",
+        },
+    },
+    {
+        path: "/profile",
+        name: "Profile",
+        component: Profile,
+        meta: {
+            requiresAuth: true,
+            title: "Profile",
         },
     },
     {

@@ -4,6 +4,7 @@
         <app-header></app-header>
         <router-view></router-view>
     </div>
+    <notifications position="bottom right" class="mb-2" />
 </template>
 
 <script>
