@@ -24,11 +24,11 @@ Authentication, Pagination, File Upload, State Management.
 -   [x] Add Images to Readme
 
 ## Images
-    ![Homepage](https://i.ibb.co/ZV9ydw2/Web-capture-21-1-2022-83326-gallery-test.jpg)
-    ![Upload](https://i.ibb.co/kxjckcS/Web-capture-21-1-2022-83355-gallery-test.jpg)
-    ![Profile](https://link](https://i.ibb.co/2PF32Lx/Web-capture-21-1-2022-8343-gallery-test.jpg)
-    ![Single Image](https://i.ibb.co/MnCWp4Y/Web-capture-21-1-2022-83341-gallery-test.jpg)
-    ![Login](https://i.ibb.co/xSWcV8b/Web-capture-21-1-2022-83414-gallery-test.jpg)
+    ![Homepage](./public/images/Homepage.jpeg)
+    ![Upload](./public/images/Upload.jpeg)
+    ![Profile](./public/images/Profile.jpeg)
+    ![Single Image](./public/images/Single%20Image.jpeg)
+    ![Login](./public/images/Login.jpeg)
     
 
 ## Installation
