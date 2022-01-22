@@ -59,17 +59,20 @@ export default {
             this.isDragging = false;
             const files = [...event.dataTransfer.files];
             files.forEach((file) => {
+                const cancelSource = axios.CancelToken.source();
                 let index =
                     this.uploads.push({
                         filename: file.name,
                         uploadProgress: 0,
                         variant: "bg-indigo-600",
+                        source: cancelSource,
                     }) - 1;
 
                 let formData = new FormData();
                 formData.append("file", file);
                 axios
                     .post("/api/media", formData, {
+                        cancelToken: cancelSource.token,
                         headers: {
                             "Content-Type": "multipart/form-data",
                         },
@@ -92,5 +95,11 @@ export default {
             });
         },
     },
+    beforeRouteLeave(to, from, next) {
+        for(const upload of this.uploads) {
+            upload.source.cancel();
+        }
+        next();
+    }
 };
 </script>
